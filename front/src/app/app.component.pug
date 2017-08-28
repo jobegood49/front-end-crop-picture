@@ -1,0 +1,13 @@
+h1
+  // here we echo the title from the component
+  | {{img}}
+
+// File input for upload without using the plugin.
+input#photo(type='file')
+// button to trigger the file upload when submitted
+button.btn.btn-success.btn-s(type='button', (click)='upload()')
+  | Upload with method 2
+div(*ngIf="img")
+  img([src]="img", style="width:300px; height: 300px")
+
+//img(src = img)
