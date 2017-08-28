@@ -7,7 +7,6 @@ import { Http, Response } from '@angular/http';
 import "rxjs/add/operator/do";
 // import the map function to be used with the http library
 import "rxjs/add/operator/map";
-import {Observable} from 'rxjs/Observable';
 // const URL = 'http://localhost:3001/uploads';
 const URL ='https://us-central1-photo-loader.cloudfunctions.net/api/uploads/';
 

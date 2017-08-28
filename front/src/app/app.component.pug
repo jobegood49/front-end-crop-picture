@@ -6,7 +6,7 @@ h1
 input#photo(type='file')
 // button to trigger the file upload when submitted
 button.btn.btn-success.btn-s(type='button', (click)='upload()')
-  | Upload with method 2
+  | Upload
 div(*ngIf="img")
   img([src]="img", style="width:300px; height: 300px")
 
